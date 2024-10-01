@@ -4,7 +4,7 @@ import discord
 from discord import Message
 from dotenv import load_dotenv
 
-from .virus_total_api import message_valid
+from virus_total_api import message_valid
 
 dotenv_path = os.path.join(os.path.dirname(__file__), '..', '.env')
 load_dotenv(dotenv_path)
